@@ -1,5 +1,5 @@
 # Create a list with some values (you can change this to test)
-my_list = [10, "hello", 3.14, True, None, "gang", "gnarly", "moonbeam", 67,41, 3]
+my_list = [10, "hello", 3.14, True, None]
 
 # Get the length of the list
 length = len(my_list)
