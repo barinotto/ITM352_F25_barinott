@@ -9,3 +9,4 @@ trips_dict = dict(zipped_trips)
 
 # Print the full dictionary
 print("Trip dictionary:", trips_dict[trip_miles[2]])
+print(trips_dict)
