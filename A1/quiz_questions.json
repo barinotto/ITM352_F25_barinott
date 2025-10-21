@@ -1,0 +1,66 @@
+{
+    "Normal": {
+        "Where is Shilder College of Business located?": {
+            "options": [
+                "Honolulu, HI",
+                "Kailua, HI",
+                "Los Angeles, CA",
+                "Salt Lake City, UT"
+            ],
+            "correct": "Honolulu, HI",
+            "explanation": "Shidler College of Business is located in Honolulu, Hawaii at the University of Hawaii at Manoa campus."
+        },
+        "What is Hawaii's State Flower?": {
+            "options": [
+                "White Lotus",
+                "Yellow Hibicus",
+                "Pink Rose",
+                "Dandelions"
+            ],
+            "correct": "Yellow Hibicus",
+            "explanation": "The Yellow Hibiscus (Ma'o hau hele) has been Hawaii's state flower since 1988."
+        },
+        "Who was the US President in 1993?": {
+            "options": [
+                "George W. Bush",
+                "Barack Obama",
+                "Ronald Reagan",
+                "Bill Clinton"
+            ],
+            "correct": "Bill Clinton",
+            "explanation": "Bill Clinton served as the 42nd President of the United States from 1993 to 2001."
+        },
+        "When was Hawaii officially annexed by the US?": {
+            "options": [
+                "1905",
+                "1898",
+                "1895",
+                "1912"
+            ],
+            "correct": "1898",
+            "explanation": "Hawaii was officially annexed by the United States on August 12, 1898."
+        },
+        "How long ago was UH Manoa founded?": {
+            "options": [
+                "58 years ago",
+                "118 years ago",
+                "93 years ago",
+                "142 years ago"
+            ],
+            "correct": "118 years ago",
+            "explanation": "UH Manoa was founded in 1907, which is approximately 118 years ago from 2025."
+        }
+    },
+    "Extra Credit!": {
+        "How long does it take to travel to the moon?": {
+            "options": [
+                "20 seconds",
+                "3 days",
+                "6 lightyears",
+                "6 months"
+            ],
+            "correct": "3 days",
+            "explanation": "On average, it takes about 3 days for a spacecraft to reach the Moon from Earth."
+        }
+    }
+}
