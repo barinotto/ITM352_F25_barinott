@@ -1,0 +1,50 @@
+  344  2025-10-20 19:47:35 python3 QuizGame.py 
+  345  2025-10-20 20:20:04 python3 QuizGame.py 
+  346  2025-10-20 20:22:35 python3 QuizGame.py 
+  347  2025-10-20 20:22:52 python3 QuizGame.py 
+  348  2025-10-20 20:23:08 python3 QuizGame.py 
+  349  2025-10-20 20:24:12 python3 QuizGame.py 
+  350  2025-10-20 20:24:50 python3 QuizGame.py 
+  351  2025-10-20 20:27:12 python3 QuizGame.py 
+  352  2025-10-20 20:29:38 python3 QuizGame.py 
+  353  2025-10-20 20:29:51 python3 QuizGame.py 
+  354  2025-10-20 20:30:59 python3 QuizGame.py 
+  355  2025-10-20 20:31:15 python3 QuizGame.py 
+  356  2025-10-20 20:32:22 python3 QuizGame.py 
+  357  2025-10-20 20:32:43 python3 QuizGame.py 
+  358  2025-10-20 20:33:15 python3 QuizGame.py 
+  359  2025-10-20 20:33:38 python3 QuizGame.py 
+  360  2025-10-20 20:33:47 python3 QuizGame.py 
+  361  2025-10-20 20:33:57 python3 QuizGame.py 
+  362  2025-10-20 20:34:08 python3 QuizGame.py 
+  363  2025-10-20 20:37:05 ls
+  364  2025-10-20 20:37:10 python3 Requirement8.py 
+  365  2025-10-20 20:41:39 python3 Requirement8.py 
+  366  2025-10-20 20:42:57 python3 Requirement8.py 
+  367  2025-10-20 20:44:30 ls
+  368  2025-10-20 20:44:38 python3 QuizGame.py 
+  369  2025-10-20 20:46:09 python3 Requirement8.py 
+  370  2025-10-20 20:50:37 python3 QuizGame.py 
+  371  2025-10-20 21:00:51 python3 QuizGame.py 
+  372  2025-10-20 21:01:50 python3 QuizGame.py 
+  373  2025-10-20 21:02:31 python3 QuizGame.py 
+  374  2025-10-20 21:04:34 python3 QuizGame.py 
+  375  2025-10-20 21:05:12 python3 QuizGame.py 
+  376  2025-10-20 21:06:50 ls
+  377  2025-10-20 21:06:54 python3 Requirement8.py 
+  378  2025-10-20 21:08:49 python3 Requirement8.py 
+  379  2025-10-20 21:11:57 python3 QuizGame.py 
+  380  2025-10-20 21:12:07 python3 Requirement8.py 
+  381  2025-10-20 21:15:36 python3 Requirement8.py 
+  382  2025-10-20 21:15:55 python3 QuizGame.py 
+  383  2025-10-20 21:22:39 python3 QuizGame.py 
+  384  2025-10-20 21:39:02 python3 Requirement8.py 
+  385  2025-10-20 21:40:06 python3 Requirement8.py 
+  386  2025-10-20 21:40:38 python3 Requirement8.py 
+  387  2025-10-20 21:41:28 python3 Requirement8.py 
+  388  2025-10-20 21:41:43 python3 Requirement8.py 
+  389  2025-10-20 21:43:24 python3 Requirement8.py 
+  390  2025-10-20 21:44:44 history > command_history.txt
+  391  2025-10-20 21:45:05 HISTTIMEFORMAT="%F %T " history > history_with_time.txt
+  392  2025-10-20 21:45:42 history 50 > last_50_commands.txt   # saves last 50 commands
+  393  2025-10-20 21:46:39 HISTTIMEFORMAT="%F %T " history 50 > history_with_time.txt

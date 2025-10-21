@@ -2,16 +2,13 @@
 # Ben Barinotto
 # Date: 2025-10-20
 
-# This version automatically saves all entered questions to a default file called 'quiz_questions.json'.
-
+# Using the JSON format to store questions, I asked AI to draft a template then added details
+# Added details: Add the ability to add explanations to each correct answer following the quiz format
 
 import json
 
 def create_question():
-    """
-    Prompts the user to enter a question, four options, and the correct answer.
-    Returns a dictionary representing the question.
-    """
+    
     question_text = input("Enter the question: ").strip()
     
     options = []
@@ -36,24 +33,35 @@ def main():
     Main loop for creating multiple questions and saving them automatically.
     """
     filename = "new_quiz_questions.json"
-    quiz_questions = []
+    new_questions = []
     
-    print("Welcome to the Quiz Question Creator!")
+    print("Welcome to the Extra Credit Quiz Question Creator!")
     
     while True:
         q = create_question()
-        quiz_questions.append(q)
+        new_questions.append(q)
         
         another = input("Do you want to add another question? (y/n): ").strip().lower()
         if another != 'y':
             break
     
-    # Save questions to a new file
-    with open(filename, 'w') as f:
-        json.dump(quiz_questions, f, indent=4)
+    # Try to read existing questions
+    try:
+        with open(filename, 'r') as f:
+            existing_questions = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        existing_questions = []
     
-    print(f"\n✅ {len(quiz_questions)} questions saved to '{filename}'")
-    print("Thank you for creating new questions! Goodbye now!")
+    # Combine existing and new questions
+    all_questions = existing_questions + new_questions
+    
+    # Save all questions back to the file
+    with open(filename, 'w') as f:
+        json.dump(all_questions, f, indent=4)
+    
+    print(f"\n✅ {len(new_questions)} new questions added to '{filename}'")
+    print(f"Total questions in file: {len(all_questions)}")
+    print("Thank you for adding to our question pool! Goodbye now!")
 
 if __name__ == "__main__":
     main()
