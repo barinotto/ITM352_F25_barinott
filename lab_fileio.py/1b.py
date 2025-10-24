@@ -1,3 +1,3 @@
-file = open("names.txt", "r")
-print(type(file))
-file.close()
+# Open and automatically close the file using 'with'
+with open("example.txt", "r") as file:
+    print(type(file))
